@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&family=Tenor+Sans&display=swap');
+@import url(./reset.css);
+/* font-family: 'Tajawal', sans-serif; */
+*{
+   font-family: 'Tenor Sans', sans-serif;
+}
+body{
+   background-color: #CBCBCB;
+   width: 1440px;
+   height: 1024px;
+
+}
+.header{
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-around; 
+   align-items: center;
+   height: 150px;
+}
+.logo{
+   margin-left: 60px;
+   align-items: center;
+   width: 360px; 
+   
+}
+.h1{
+ 
+   font-size: 65px;
+   color: #4F4A7D;
+}
+.menu{
+   width: 720px;
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: center;
+   align-items: center;
+}
+.li1, .li2, .li3{
+   font-size: 20px;
+   color: #4F4A7D;
+   margin: 33px;
+}
+.buttons{
+   width: 360px; 
+}
+.button1{
+   margin-right: 30px;
+   width: 138px;
+   height: 51px;
+   border: 2px solid #4F4A7D;
+   border-radius: 10px;
+}
+.button2{
+   background-color: #4F4A7D;
+   color: white;
+   width: 138px;
+   height: 51px;
+   border-radius: 10px;
+}
+.main{
+   display: flex;
+   flex-flow: row nowrap;
+   height: 804px;
+   width: 1440px;
+   background-color: rgb(20, 193, 175);
+}
+.left{
+   width: 854px;
+   height: 100%;
+   background-color: #146356;
+   display: flex;
+   flex-flow: column nowrap;
+   justify-content: center;
+   align-self: center;
+}
+.right{
+   width: 586px;
+   height: 804px;
+}
+.foto{
+   width: 586px;
+   height: 804px;
+   object-position: center;
+   object-fit: cover;
+}
+.titleh2{
+   margin: 172px 0 2px 0;
+   font-size: 90px;
+   color: #fff;
+   text-align: center;
+}
+.text{
+   font-family: 'Tajawal', sans-serif;
+   margin-bottom: 60px;
+   font-size: 50px;
+   color: #fff;
+   text-align: center;
+}
+.button3{
+   width: 294px;
+   height: 94px;
+   background-color: #fff;
+   border-radius: 20px;
+   color: #4F4A7D;
+   font-size: 36px;
+   text-align: center;
+   align-self: center;
+
+}
+.footer{
+   height: 70px;
+}
